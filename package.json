@@ -1,0 +1,16 @@
+{
+  "name": "forex-chart-app",
+  "version": "1.0.0",
+  "description": "Forex chart application using TypeScript and Canvas",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "parcel public/index.html",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "parcel-bundler": "^1.12.5"
+  }
+}
